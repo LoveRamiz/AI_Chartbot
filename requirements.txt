@@ -1,4 +1,4 @@
 flask
 ollama
 gunicorn
-
+mistral
