@@ -14,7 +14,7 @@ def chat():
     try:
         # Send the user's input to tinyllama model
         response = ollama.chat(
-            model="tinyllama",
+            model="mistral",
             messages=[{"role": "user", "content": user_input}]
         )
 
